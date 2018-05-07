@@ -27,6 +27,7 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
 ### Dependencies
 #
 RUN apt-get update && apt-get -y --no-install-recommends install \
+  sudo \
   elasticsearch \
   jpegoptim \
   nodejs \
