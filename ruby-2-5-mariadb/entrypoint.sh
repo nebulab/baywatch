@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/etc/init.d/mysql start
+service mysql start

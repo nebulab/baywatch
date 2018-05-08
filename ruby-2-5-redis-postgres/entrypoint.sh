@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/etc/init.d/redis-server start
-/etc/init.d/postgresql start
+service redis-server start
+service postgresql start
 
 
