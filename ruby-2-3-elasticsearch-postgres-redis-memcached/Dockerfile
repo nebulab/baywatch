@@ -13,7 +13,7 @@ RUN wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | apt-key add 
   && echo 'deb https://artifacts.elastic.co/packages/5.x/apt stable main' | tee /etc/apt/sources.list.d/elastic-5.x.list
 
 # NodeJS
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
 # PostgreSQL
 RUN echo 'deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main' > /etc/apt/sources.list.d/postgresql.list \
